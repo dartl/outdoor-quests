@@ -1,0 +1,36 @@
+﻿<HTML>
+    <HEAD>
+        <TITLE>Инструмент - отображение квеста на карте</TITLE>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </HEAD>
+    <BODY>
+        <div class="content">
+	        <h1>Инструмент - статистика квестов</h1>
+            <div class="grafik"></div>
+            <div class="select_file">
+                <p><b>JSON-файл с квестом: </b><input type="file" id="file-input" /></p>
+                <p><span id="open" class="btn btn-primary">Отобразить информацию</span></p>
+            </div>
+            <div class="information">
+                <table>
+                    <tr>
+                        <th>Название квеста</th>
+                        <th>Длинна пути</th>
+                        <th>Время в дороге</th>
+                    </tr>
+                    <tr class="sum">
+                        <th>Итог: </th>
+                        <td class="distance">0</td>
+                        <td class="duration">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </BODY>
+</HTML>

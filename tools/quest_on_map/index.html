@@ -1,0 +1,27 @@
+﻿<HTML>
+    <HEAD>
+        <TITLE>Инструмент - отображение квеста на карте</TITLE>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </HEAD>
+    <BODY>
+        <div id="map"></div>
+        <div class="content">
+	        <h1>Инструмент - отображение квеста на карте</h1>
+	        <div class="select_file">
+	        	<p><b>JSON-файл с квестом: </b><input type="file" id="file-input" /></p>
+	        	<p><span id="open" class="btn btn-primary">Отобразить на карте</span></p>
+                <p><b>Сменить квест: </b><select id="select-quest"></select></p>
+	        </div>
+	        <div class="information">
+				<h2>Информация о квесте:</h2>
+                <div><b>Полная длина маршрута:</b> <span id="distance"></span></div>
+                <div><b>Приблизительное время прохождения:</b> <span id="duration"></span></div>
+				<pre id="file-content"></pre>
+			</div>
+        </div>
+    </BODY>
+</HTML>

@@ -1,0 +1,68 @@
+﻿body {
+	padding: 0;
+	margin: 0;
+	color:#333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#map {
+	width: 100%;
+	min-height: 500px;
+}
+
+div.content {
+	box-shadow: inset 0 5px 8px rgba(0,0,0,0.2);
+	padding: 15px 10px;
+}
+
+div.content h1 {
+	text-align: center;
+	margin: 0;
+	line-height: 1em;
+}
+
+	div.content div.select_file {
+		text-align: center;
+	}
+
+	div.content p {
+		margin: 15px 0;
+	}
+
+	div.content #file-input {
+		display: inline;
+	}
+
+div.content div.information h2 {
+	text-align: center;
+}
+
+div.information {
+
+}
+	div.information table {
+		width: 90%;
+		margin: 0 auto;
+		border-collapse: collapse; /* Убираем двойные линии между ячейками */
+	}
+
+	div.information table th, div.information table td {
+		border:1px solid #BDBDBD;
+	}
+
+	div.information table tr th {
+		background: #E0E0E0;
+		padding:18px 6px;
+	}
+
+	div.information table tr td {
+		padding:12px 6px;
+	}
+
+	div.information table tr:nth-child(odd) {
+		background: #F5F5F5;
+	}
+
+	div.information table tr:last-child td, div.information table tr:last-child th {
+		background: #EEEEEE;
+	}
