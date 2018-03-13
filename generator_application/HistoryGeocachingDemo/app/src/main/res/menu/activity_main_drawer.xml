@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list_quests"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:checkable="false"
+            android:title="@string/drawer_menu_list_quests" />
+        <item
+            android:id="@+id/nav_current_quest"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:checkable="false"
+            android:title="@string/drawer_menu_current_quest" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@drawable/ic_achievement_black_24dp"
+            android:checkable="false"
+            android:title="@string/drawer_menu_achievements" />
+        <!-- <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/ic_records_black_24dp"
+            android:checkable="false"
+            android:title="@string/drawer_menu_records" /> -->
+    </group>
+
+    <item android:title="Тестирование">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/drawer_menu_send_administrator" />
+        </menu>
+    </item>
+
+</menu>

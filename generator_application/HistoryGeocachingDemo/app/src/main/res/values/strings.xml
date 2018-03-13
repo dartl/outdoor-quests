@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">В поиске истории</string>
+    <string name="app_info">Приложение позволяет проходить квесты в реальной жизни. Разработка Романа.</string>
+    <string name="app_name_statistics">Статистика</string>
+    <string name="activity_name_list_quests">Список квестов</string>
+
+    <string name="navigation_drawer_open_current_quest_error">Вы пока не начали проходить ни один квест.</string>
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="signin_other_error">Ошибка входа в аккаунт Google</string>
+    <string name="google_games_services_error_null">Вы не авторизованы в Google Games</string>
+
+    <!-- Список заданий -->
+    <string name="list_quest_start">Начать</string>
+    <string name="list_quest_more">Подробнее</string>
+
+    <string name="alert_dialog_start_quest_title">Начало квеста</string>
+    <string name="alert_dialog_start_quest_text">Готовы ли вы начать выполнение квеста?</string>
+    <string name="alert_dialog_start_quest_yes">Да</string>
+    <string name="alert_dialog_start_quest_cancel">Пойзже</string>
+
+    <!-- Задания -->
+    <string name="quest_info_header">Информация</string>
+    <string name="quest_help_header">Подсказки</string>
+    <string name="quest_images_header">Изображения</string>
+    <string name="quest_help_open">Открыть подсказку</string>
+
+    <string name="quest_helps_empty">У данного места нет подсказок</string>
+    <string name="quest_info_empty">К данному месту нет описания</string>
+    <string name="quest_images_empty">К данному месту нет изображений</string>
+
+    <string name="quest_start_message_first">Вы начали квест</string>
+    <string name="quest_start_message_end">\nДойдите до первой метки, чтобы продолжить.</string>
+
+    <string name="quest_end_message">Поздравляем вас с прохождением квеста</string>
+
+    <string name="quest_start_title">Начало квеста</string>
+    <string name="quest_end_title">Вы успешно закончили квест</string>
+    <string name="quest_help_title">Подсказка</string>
+    <string name="quest_info_not_open">Чтобы получить подробную информацию о месте, сначала найдите его.</string>
+
+    <string name="quest_status_ok">Найдена</string>
+    <string name="quest_status_search">В поиске</string>
+
+    <string name="quest_error_next_point">Чтобы увидеть информацию о следующих местах - найдите это</string>
+    <string name="quest_error_prev_point">Это самое первое место квеста</string>
+    <string name="quest_error_check_false">Вы ещё слишком далеко от искомого места</string>
+    <string name="quest_error_not_location_player">Приложению не удается получить ваше местоположение</string>
+
+    <string name="quest_action_info">Информация</string>
+    <string name="quest_action_check">Проверка</string>
+    <string name="quest_action_stats">Статистика</string>
+
+
+    <!-- Статистика -->
+    <string name="statistics_helps_head">Использованные подскази:</string>
+
+    <string name="statistics_distance_head">Пройденный путь:</string>
+
+    <string name="statistics_time_head">Затраченное время:</string>
+
+    <!-- Основное меню в Drawer -->
+    <string name="drawer_menu_current_quest">Текущий квест</string>
+    <string name="drawer_menu_list_quests">Список квестов</string>
+    <string name="drawer_menu_achievements">Достижения</string>
+    <string name="drawer_menu_records">Список рекордов</string>
+
+    <string name="drawer_menu_send_administrator">Написать разработчику</string>
+
+    <string name="ok">Ок</string>
+
+    <!--  Для тестов -->
+    <string name="test_start_title">Для тестировщиков</string>
+    <string name="test_start_message">Участвуя в тестировании, вы соглашаетесь с условиями политики конфиденциальности.</string>
+</resources>
+
+

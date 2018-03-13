@@ -1,0 +1,20 @@
+﻿[
+	{
+		"name" : "primaryColor",
+		"fileExtension" : "*.xml",
+		"constant" : "CONSTANT_BUILDER_PRIMARYCOLOR",
+		"value" : "#4CAF50"
+	},
+	{
+		"name" : "applicationName",
+		"fileExtension" : "*.xml",
+		"constant" : "CONSTANT_BUILDER_APPLICATIONNAME",
+		"value" : "В поиске истории"
+	},
+	{
+		"name" : "applicationInfo",
+		"fileExtension" : "*.xml",
+		"constant" : "CONSTANT_BUILDER_APPLICATIONINFO",
+		"value" : "Приложение позволяет проходить квесты в реальной жизни. Разработка Романа."
+	}
+]

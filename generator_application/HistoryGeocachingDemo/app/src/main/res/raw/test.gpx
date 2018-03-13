@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="Yandex Map Constructor"><metadata><name/><desc/><time>2017-05-03T14:55:01.086Z</time></metadata>
+	<rte>
+		<rtept lon="30.335371" lat="59.934151"/>
+		<rtept lon="30.336481" lat="59.933879"/>
+		<rtept lon="30.337023" lat="59.933427"/>
+
+		<rtept lon="30.337908" lat="59.933774"/>
+		<rtept lon="30.340837" lat="59.933481"/>
+		<rtept lon="30.338236" lat="59.933771"/>
+
+		<rtept lon="30.341476" lat="59.933403"/>
+		<rtept lon="30.342849" lat="59.933238"/>
+		<rtept lon="30.342089" lat="59.932257"/>
+		 
+	</rte>
+</gpx>

@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ButtonPrimary" >
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ButtonWhite" >
+        <item name="android:tint">@color/colorWhite</item>
+        <item name="backgroundTint">@color/colorTransparent</item>
+    </style>
+
+    <style name="AppTheme.NoBackground" >
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <!-- Стили для списка квестов -->
+    <style name="AppTheme.ListQuest">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.ListQuestTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/colorGrey800</item>
+    </style>
+
+    <style name="AppTheme.ListQuestDescription">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/colorGrey800</item>
+    </style>
+
+    <style name="AppTheme.ButtonNoBackground">
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AppTheme.ButtonNoBackground.ListQuestButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="AppTheme.Caption" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="AppTheme.Padding">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="AppTheme.PaddingHorizontal">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Стили активити карты -->
+    <style name="AppTheme.ActionPanel" >
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+    </style>
+
+    <style name="AppTheme.ActionPanelText" >
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.TextHelp" >
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Стили нижней смены между метками квеста в странице информации о метках -->
+    <style name="AppTheme.ContentQuestMainBottom">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ContentQuestMainBottom.Arrow">
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <style name="AppTheme.ContentQuestMainBottom.MainText">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.ContentQuestMainBottom.SubText">
+        <item name="android:textColor">@color/colorGrey500</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+</resources>
